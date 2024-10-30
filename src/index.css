@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+
+/* Mobile Hamberger animation */
+.slideIn {
+    
+     opacity: 1; 
+      animation: slideIn 0.5s forwards;
+}
+
+.slideOut{
+    opacity: 0; 
+      animation: slideOut 0.5s backwards;
+}
+ /* @keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} */
+
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-100%); /* Start above the viewport */
+        opacity: 0; /* Invisible */
+    }
+    100% {
+        transform: translateY(0); /* End at original position */
+        opacity: 1; /* Fully visible */
+    }
+}
+
+@keyframes slideOut {
+    0% {
+        transform: translateY(0); /* Start at original position */
+        opacity: 1; /* Fully visible */
+    }
+    100% {
+        transform: translateY(-100%); /* Move above the viewport */
+        opacity: 0; /* Invisible */
+    }
+}
+
+
+ul.mobile-menu li  {
+margin: 6px !important;
+padding: 10px
+}
+
+
+/* Hero Banner */
+
+.carousel-pic{ 
+ background-image: url("./assets/hero-banner-bg.png");
+}
