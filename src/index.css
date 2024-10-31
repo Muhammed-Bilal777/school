@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+h1,h2,h3{
+ font-family: "Noto Serif", serif;
+}
+
+p 
+ {
+    font-family: cursive;
+ font-weight: 300;
+}
+
+ .my-font{
+    font-family: cursive;
+ font-weight: 600;
+}
  
 
 /* Mobile Hamberger animation */
@@ -54,8 +68,100 @@ padding: 10px
 }
 
 
-/* Hero Banner */
-
-.carousel-pic{ 
- background-image: url("./assets/hero-banner-bg.png");
+.about-us-container{
+background-image: url("./assets/section-2-ng.png");
+ 
+ 
+ background-repeat: no-repeat;
 }
+
+@media(max-width:700px){
+.about-us-container{
+     background-size: 100% 100%;
+ background-repeat: no-repeat;
+}
+}
+
+
+.our-classes-section{
+   background-image: url('./assets//section-3-bg.png');
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.classes-cards{
+  background-image: url('./assets/classes-card-bg.png');
+  background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 240px;
+}
+
+
+ 
+.card-1{
+  background-image: url('./assets/gal1.png');
+      background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.card-2{
+  background-image: url('./assets/gal2.png');
+      background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     width: 100%;
+}
+.card-3{
+  background-image: url('./assets/gal3.png');
+      background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     width: 100%;
+}
+.card-4{
+  background-image: url('./assets/gal4.png');
+      background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     width: 100%;
+}
+.card-5{
+  background-image: url('./assets/gal5.png');
+      background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     width: 100%;
+}
+.card-6{
+  background-image: url('./assets/gal6.png');
+      background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     width: 100%;
+}
+.card-7{
+  background-image: url('./assets/gal7.png');
+      background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     width: 100%;
+} 
+ 
+
+.gallry-bg {
+ background-image: url('./assets/section-2-ng.png');
+   
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.kids-activity-section{
+   background-image: url('./assets/kids-activity-section.png');
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+ 

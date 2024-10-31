@@ -18,6 +18,9 @@ export default {
 					},
 				},
 			},
+			fontFamily: {
+				"my-heading": ["Rubik Gemstones", "system-ui", "sans-serif"],
+			},
 		},
 	},
 	plugins: [],
