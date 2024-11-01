@@ -8,7 +8,7 @@ export const KidsActivitySection = () => {
 					<h2 className="text-2xl text-center md:text-start font-my-heading md:text-3xl lg:text-4xl font-bold mb-4 text-custum-sky tracking-wider">
 						Kids Activities
 					</h2>
-					<p className="text-md text-center md:text-start my-4 text-black  leading-6 mb-12 max-w-3xl text-sm md:text-lg">
+					<p className="text-md text-center   my-4 text-black  leading-6 mb-12 max-w-3xl text-sm md:text-lg">
 						Engaging school kids through creative, educational, and fun hands-on
 						activities that promote learning, teamwork, and personal growth.
 					</p>

@@ -164,4 +164,157 @@ background-image: url("./assets/section-2-ng.png");
     background-repeat: no-repeat;
     background-position: top;
 }
+
+
+.choose-us-section::before{
+content: "";
+    position: absolute;
+    height: 50%;
+    width: 20%;
+    top: 78px;
+    left: 15px;
+    background-image: url(/src/assets/books.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-size: contain;
+    background-position: center;
+     
+
+}
+.choose-us-section::after{
+content: "";
+    position: absolute;
+    height: 46%;
+    width: 11%;
+    bottom: 1px;
+    right: 80px;
+    background-image: url(/src/assets/shape1.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-size: contain;
+    background-position: right;
+
+}
+
+.choose-us-section::after,
+.choose-us-section::before{
+opacity: 0.7;
+}
+@media(max-width : 700px){
+.choose-us-section::after,
+.choose-us-section::before{
+opacity: 0.4;
+}
+.choose-us-section::before{
+   height: 50%;
+        width: 64%;
+        top: 78px;
+        left: 42px;
+}
+.choose-us-section::after{
+   height: 43%;
+    width: 44%;
+    bottom: -62px;
+    right: 120px;
+}
+}
+
+   
+
+.event-section{
+  background-image: url('./assets/event-section-bg.png');
+   background-size: cover;
+    background-repeat: no-repeat;
+     
+}
+.event-section  h2 {
+     background-image: url('./assets/section-2-ng.png');
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.events-inside-card{
+  background-image: url('./assets/classes-card-bg.png');
+  background-color: white;
+ border-radius: 30px;
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+
+
+
+.FAQ-section::before{
+content: "";
+    position: absolute;
+    height: 50%;
+    width: 20%;
+    top: -70px;
+    left: 15px;
+    background-image: url('/src/assets/book-and-hat.png');
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-size: contain;
+    background-position: center;
+     
+
+}
+.FAQ-section::after{
+content: "";
+    position: absolute;
+        height: 12%;
+    width: 11%;
+    top: 75px;
+    right: 60px;
+     
+    background-image: url('/src/assets/sun.png');
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-size: contain;
+    background-position: right;
+    transform: translateX(-50%);
+    animation: rotate 20s linear infinite;
+
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+@media(max-width:650px){
+.FAQ-section::after {
+ 
+           height: 7%;
+        width: 15%;
+        top: -30px;
+        right: 78px;
+    
+}
+
+.FAQ-section::before {
+ 
+           height: 7%;
+        width: 26%;
+        top: -30px;
+        right: 78px;
+    
+}
+ 
+}
+
+
+.reviews-section{
+  background-image: url('./assets/reviews-section-bg.png');
+   background-size: cover;
+    background-repeat: no-repeat;
+     
+}
+
  
