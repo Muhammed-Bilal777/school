@@ -16,11 +16,13 @@ export const Header = () => {
 		<section className="w-full h-[70px] flex justify-center items-center">
 			<nav className="header z-10 w-4/5 flex justify-around items-center py-4 ">
 				<div className="order-2 md:order-1">
-					<img
-						src="src\assets\Logo.png"
-						alt="Logo"
-						className="h-[110px] mt-[67px] w-[190px] bg"
-					/>
+					<Link to="/">
+						<img
+							src="src\assets\Logo.png"
+							alt="Logo"
+							className="h-[110px] mt-[67px] w-[190px] bg"
+						/>
+					</Link>
 				</div>
 				<div className="order-3 md:order-2">
 					{show ? (
@@ -51,7 +53,7 @@ export const Header = () => {
 						</li>
 						<li>
 							<Link
-								to="/services"
+								to="/classes"
 								className="text-black hover:text-custum-sky px-3 py-2 rounded"
 							>
 								Classes
@@ -67,10 +69,10 @@ export const Header = () => {
 						</li>
 						<li>
 							<Link
-								to="/videos"
+								to="/blog"
 								className="text-black hover:text-custum-sky px-3 py-2 rounded"
 							>
-								Videos
+								Blog
 							</Link>
 						</li>
 						<li>

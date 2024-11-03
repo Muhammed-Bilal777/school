@@ -194,7 +194,7 @@ export const FrequentlyAskedW = () => {
 									<p className="mb-6 text-center text-lg font-bold tracking-wide">
 										IT&apos;S LIMITED. HURRY UP!
 									</p>
-									<div className="flex justify-center gap-4">
+									<div className="flex justify-center gap-0 md:gap-4">
 										{/* Days */}
 										<div className="flex flex-col items-center">
 											<div className="flex h-20 w-20 items-center justify-center rounded-full bg-white text-2xl font-bold text-red-500">

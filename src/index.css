@@ -317,4 +317,69 @@ content: "";
      
 }
 
+
+.news-letter-section .form-section{
+  background-image: url('./assets/news-latter-bg.png');
+   background-size: cover;
+    background-repeat: no-repeat;
+     
+}
+
+
+ 
+.contact-section::before{
+   content: "";
+    position: absolute;
+    height: 50%;
+    width: 20%;
+    top: 78px;
+    left: 15px;
+    background-image: url("/src/assets/books.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-size: contain;
+    background-position: center;
+     
+}
+
+.contact-section::after{
+   content: "";
+    position: absolute;
+    height: 46%;
+    width: 11%;
+    bottom: 1px;
+    right: 80px;
+    background-image: url("/src/assets/shape1.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-size: contain;
+    background-position: right;
+     
+}
+
+
+.footer-section{
+     background-image: url('./assets/footer-section-bg.png');
+   background-size: cover;
+    background-repeat: no-repeat;
+} 
+
+.hero-banner-internal-pages{
+      background-image: url('./assets/internal-banner-pages-image.png');
+   background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+@media(max-width:500px){
+.hero-banner-internal-pages{
+      background-image: url('./assets/internal-pages-banner-mobile.png');
+   background-size: cover;
+    background-repeat: no-repeat;
+            background-position: bottom;
+    
+}
+}
+ 
+
  

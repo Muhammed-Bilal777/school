@@ -1,6 +1,5 @@
 import React from "react";
-import { HeaderCTA } from "../header/HeaderCTA";
-import { Header } from "../header/Header";
+ 
 import { HeroBanner } from "../sections/HeroBanner";
 import AboutUsSection from "../sections/AboutUsSection";
 import OurClasses from "../sections/OurClasses";
@@ -11,25 +10,23 @@ import EventSecion from "../sections/EventSecion";
 import { FrequentlyAskedW } from "../sections/FAQ";
 import { ReviewsSection } from "../sections/ReviewsSection";
 import { NewsLatter } from "../sections/NewsLatter";
+import { AwardsSection } from "../sections/AwardsSection";
 
 const HomePage = () => {
 	return (
-		<div>
-			<section>
-				<HeaderCTA />
-				<Header />
-				<HeroBanner />
-				<AboutUsSection />
-				<OurClasses />
-				<GallerySection />
-				<KidsActivitySection />
-				<ChooseUsSection />
-				<EventSecion />
-				<FrequentlyAskedW />
-				<ReviewsSection />
-				<NewsLatter />
-			</section>
-		</div>
+		<section>
+			<HeroBanner />
+			<AboutUsSection />
+			<OurClasses />
+			<GallerySection />
+			<KidsActivitySection />
+			<ChooseUsSection />
+			<EventSecion />
+			<FrequentlyAskedW />
+			<ReviewsSection />
+			<NewsLatter />
+			<AwardsSection />
+		</section>
 	);
 };
 

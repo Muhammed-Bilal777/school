@@ -10,12 +10,15 @@ export const HeaderCTA = () => {
 	return (
 		<section className="w-full bg-black h-[60px] flex justify-around items-center m-0 ">
 			<nav className="flex justify-around">
-				<ul className="flex justify-center items-center gap-4">
+				<ul className="flex justify-center items-center gap-4 ">
 					<li className="cta-icons flex justify-center items-center gap-1 ">
 						<span>
 							<FaLocationDot color="#18C0CB" size={18} />
 						</span>
-						<Link className="hidden md:flex text-white font-bold text-sm tracking-widest none ">
+						<Link
+							to="/"
+							className="hidden hover:scale-125 transform transition-all md:flex text-white font-bold text-sm tracking-widest none "
+						>
 							Kerebilchi
 						</Link>
 					</li>
